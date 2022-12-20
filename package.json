@@ -1,10 +1,10 @@
 {
-  "name": "calculator",
+  "name": "tools",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/calculator/",
+    "build": "vite build --base=/tools/",
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
