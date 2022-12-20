@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: dependencies
-        run: npm ci
+        run: npm install
       - name: build artifacts
         run: npm run build
       - name: Upload a Build Artifact
