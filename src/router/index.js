@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import BierView from '../views/BierView.vue'
+import DegreeCalculatorView from '../views/DegreeCalculatorView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -15,6 +16,11 @@ const router = createRouter({
       name: 'bier',
       component: BierView
     },
+    {
+      path: "/degreeCalculator",
+      name: "degreeCalculator",
+      component: DegreeCalculatorView
+    }
   ]
 })
 
